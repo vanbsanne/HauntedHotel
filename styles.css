@@ -1,35 +1,36 @@
+:root {
+    --cream: #eddfc9;
+    --light-forest-green: #a6b784;
+    --forest-green: #7f8f50;
+    --very-dark-green: #193c24;
+    --light-green-olive: #bb9c4a;
+    --light-copper: #be673a;
+}
+
 body {
-    background-color: rgb(8, 43, 2);
-    color: white;
+    color: var(--cream);
     font-family: 'Lato';
 }
 
-h1 {
-    background-color: rgb(8, 43, 2);
-}
 
 .title {
     color: black;
 }
 
 nav {
-  border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .navigation ol {
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .navlink {
-  display: inline-block;
+    display: inline-block;
 }
 
-.navlink a::after {
-  display: inline-block;
-  color: black;
-  content: ">";
-  font-size: 80%;
-  font-weight: bold;
-  padding: 0 3px;
+#link {
+    text-decoration: none;
+    color: var(--cream);
 }

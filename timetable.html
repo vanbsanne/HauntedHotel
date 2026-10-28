@@ -5,49 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav class="navigation">
             <ol>
-                <li class="navlink"><a href="index.html">Home</a></li>
-                <li class="navlink"><a href="faq.html">FAQ</a></li>
-                <li class="navlink"><a href="registration.html">Register here</a></li>
+                <li class="navlink"><a href="index.html" id="link">Home</a></li>
+                <li class="navlink"><a href="faq.html" id="link">FAQ</a></li>
+                <li class="navlink"><a href="registration.html" id="link">Register here</a></li>
             </ol>
         </nav>
         <img src="header.png" alt="Header image of Hotel Karloff in a spooky atmosphere.">
         <h1>Timetable</h1>
     </header>
-    <table>
-        <tr>
-            <th>Time</th>
-            <th>Event</th>
-            <th>Extra information</th>
-        </tr>
-        <tr>
-            <td>18:45</td>
-            <td>Doors open.</td>
-            <td>Staff might still be busy preparing.</td>
-        </tr>
-        <tr>
-            <td>19:00</td>
-            <td>Event starts. </td>
-            <td>Bar opens and appetizers are available.</td>
-        </tr>
-        <tr>
-            <td>20:00</td>
-            <td>Start entertainment.</td>
-            <td>We need some help escaping our prison, I mean nice hotel.</td>
-        </tr>
-        <tr>
-            <td>22:30</td>
-            <td>Estimated end entertainment.</td>
-            <td>Feel free to stay for as long as you like and mingle. </td>
-        </tr>
-    </table>
+    <main class="container">
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Extra information</th>
+            </tr>
+            <tr>
+                <td>18:45</td>
+                <td>Doors open.</td>
+                <td>Staff might still be busy preparing.</td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td>Event starts. </td>
+                <td>Bar opens and appetizers are available.</td>
+            </tr>
+            <tr>
+                <td>20:00</td>
+                <td>Start entertainment.</td>
+                <td>We need some help escaping our prison, I mean nice hotel.</td>
+            </tr>
+            <tr>
+                <td>22:30</td>
+                <td>Estimated end entertainment.</td>
+                <td>Feel free to stay for as long as you like and mingle. </td>
+            </tr>
+        </table>
+    </main>
 </body>
 
 </html>
